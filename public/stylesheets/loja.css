@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+
+header{
+    background-color: #1D5E69;
+    display: flex;
+    height: 10vh;
+    width: 200vh; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+#conta{
+    font-size: 2.5em;
+}
+
+.logo{
+    color: #7cbc9a;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.nav{
+    display: flex;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.box{
+    display: flex;
+}
+
+.txt i{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.pesquisa{
+    width: 80vh;
+    height: 4.5vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.pesquisa:focus-visible{
+    outline: none;
+}
+
+.box input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 300px;
+    padding: 10px;
+}
+
+.nav li a{
+    color: #fff;
+}
+
+.nav li a:hover{
+    color: #90D5B4;
+}
+
+.bar{
+    width: 200vh;
+    height: 5vh;
+    background-color: #000000;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li a{
+    color: #90D5B4;
+    padding: 10px;
+}
+li a:hover{
+    color: #fff;
+}
+
+img{
+    width: 25vh;
+    height: 25vh;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    overflow: hidden;
+    background-color: #1D5E69;
+    color: #90D5B4;
+    font-weight: 200px;
+    text-align: center;
+    width: 25vh;
+    height: 38vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+}
+
+.product a{
+    border: solid 2px #fff;
+}
+.product a:hover{
+    color: #7cbc9a;
+}
+
+footer{
+    background-color: #1D5E69;
+    height: 5vh;
+    width: 200vh;
+    margin-top: 15px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: #90D5B4;
+}
