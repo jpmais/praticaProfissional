@@ -10,6 +10,10 @@ var cadastroRouter = require('./routes/cadastro');
 var loginRouter = require('./routes/login');
 var produtoRouter = require('./routes/produto');
 var femininaRouter = require('./routes/feminina');
+var masculinoRouter = require('./routes/masculino');
+var calcadosRouter = require('./routes/calcados');
+var acessoriosRouter = require('./routes/acessorios');
+
 
 var app = express();
 
@@ -32,7 +36,9 @@ app.use('/cadastro', cadastroRouter);
 app.use('/login', loginRouter);
 app.use('/produto', produtoRouter);
 app.use('/feminina', femininaRouter);
-
+app.use('/masculino', masculinoRouter);
+app.use('/calcados', calcadosRouter);
+app.use('/acessorios', acessoriosRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
